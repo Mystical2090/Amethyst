@@ -5,7 +5,7 @@ using namespace geode::prelude;
 
 class $modify(NoclipHack, PlayLayer) {
     void destroyPlayer(PlayerObject* player, GameObject* object) {
-        if (!Mod::get()->getSettingValue<bool>("enable-noclip")) {
+        if (!Mod::get()->getSettingValue<bool>("noclip")) {
             PlayLayer::destroyPlayer(player, object);
         }
     }
