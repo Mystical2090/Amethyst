@@ -1,0 +1,105 @@
+{
+    "geode": "4.5.0",
+    "gd": {
+        "mac": "2.2074",
+        "win": "2.2074",
+        "android": "2.2074",
+        "ios": "2.2074"
+    },
+    "version": "2.0.0",
+    "id": "mystical433.shark.int87.amethyst",
+    "name": "Amethyst",
+     "developers": ["Mystical433","Shark", "ineedthis87"],
+    "description": "DISCOUNTED",
+    "settings": {
+        "player": {
+            "type": "title",
+            "name": "Player"
+        },
+                "noclip": {
+                    "name": "Noclip",
+                    "type": "bool",
+                    "description": "noclip",
+                    "default": false
+                },
+        "Misc": {
+            "type": "title",
+            "name": "Misc"
+        },
+                "speedhack-bool": {
+                    "name": "Speed Hack",
+                    "type": "bool",
+                    "description": "Allows you to speed up the game.",
+                    "default": false
+                },
+                "speedhack": {
+                    "name": "SpeedHack",
+                    "type": "float",
+                    "min": 0.0001,
+                    "max": 1000.0,
+                    "default": 1.0,
+                    "enable-if": "speedhack-bool",
+                    "controls": {
+                "arrows": true,
+                "arrow-step": 0.1,
+                "big-arrows": false,
+                "big-arrow-step": 0.5,
+                "slider": true,
+                "slider-step": 0.1,
+                "input": false
+                    }
+                },
+                "practice-music": {
+                "name": "Practice Music Hack",
+                "type": "bool",
+                "description": "Bypasses practice music checkmark in settings.",
+                "default": false
+                },
+                "icon-hack": {
+                    "name": "Icon Hack",
+                    "type": "bool",
+                    "description": "Unlocks all the icons.",
+                    "default": false
+                },
+                "color-hack": {
+                    "name": "Color Hack",
+                    "type": "bool",
+                    "description": "Unlocks all the colors.",
+                    "default": false
+                },
+                "show-hitboxes": {
+                    "name": "Show hitboxes",
+                    "type": "bool",
+                    "description": "Shows hitboxes.",
+                    "default": false
+                },
+                "show-hitboxes-on-death": {
+                    "name": "Show hitboxes on death",
+                    "type": "bool",
+                    "description": "Shows hitboxes on death.",
+                    "default": false
+                },
+                "basement-bypass": {
+                    "name": "Basement Bypass",
+                    "type": "bool",
+                    "description": "Allows you to enter the basement.",
+                    "default": false
+                },
+        "creator": {
+            "type": "title",
+            "name": "Editor"
+        },   
+                "copy-hack-balls": {
+                    "name": "Copy Hack",
+                    "type": "bool",
+                    "description": "Allows you to copy any level.",
+                    "default": false
+                },
+            "custum-obj-bypass": {
+                "name": "Custom Objects Bypass",
+                "type": "bool",
+                "description": "custom.objects.bypass.info.desc",
+                "default": false
+                }
+        }
+}
