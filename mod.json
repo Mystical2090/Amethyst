@@ -29,7 +29,7 @@
                 "speedhack-bool": {
                     "name": "Speed Hack",
                     "type": "bool",
-                    "description": "Allows you to speed up the game.",
+                    "description": ".",
                     "default": false
                 },
                 "speedhack": {
@@ -52,37 +52,37 @@
                 "practice-music": {
                 "name": "Practice Music Hack",
                 "type": "bool",
-                "description": "Bypasses practice music checkmark in settings.",
+                "description": ".",
                 "default": false
                 },
                 "icon-hack": {
                     "name": "Icon Hack",
                     "type": "bool",
-                    "description": "Unlocks all the icons.",
+                    "description": ".",
                     "default": false
                 },
                 "color-hack": {
                     "name": "Color Hack",
                     "type": "bool",
-                    "description": "Unlocks all the colors.",
+                    "description": ".",
                     "default": false
                 },
                 "show-hitboxes": {
                     "name": "Show hitboxes",
                     "type": "bool",
-                    "description": "Shows hitboxes.",
+                    "description": ".",
                     "default": false
                 },
                 "show-hitboxes-on-death": {
                     "name": "Show hitboxes on death",
                     "type": "bool",
-                    "description": "Shows hitboxes on death.",
+                    "description": "Sath.",
                     "default": false
                 },
                 "basement-bypass": {
                     "name": "Basement Bypass",
                     "type": "bool",
-                    "description": "Allows you to enter the basement.",
+                    "description": "Allot.",
                     "default": false
                 },
         "creator": {
@@ -92,13 +92,13 @@
                 "copy-hack-balls": {
                     "name": "Copy Hack",
                     "type": "bool",
-                    "description": "Allows you to copy any level.",
+                    "description": "Allow.",
                     "default": false
                 },
             "custum-obj-bypass": {
                 "name": "Custom Objects Bypass",
                 "type": "bool",
-                "description": "custom.objects.bypass.info.desc",
+                "description": "custdesc",
                 "default": false
                 }
         }
