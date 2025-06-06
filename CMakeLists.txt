@@ -17,7 +17,6 @@ add_library(${PROJECT_NAME} SHARED
     src/hacks/misc/iconhack.cpp
     src/hacks/creator/copy-hack.cpp
     src/hacks/creator/custom-obj-hack.cpp
-    src/hacks/misc/practice-music.cpp
     src/hacks/misc/colorhack.cpp
     src/hacks/misc/show-hitboxes.cpp
     src/hacks/misc/basementbypass.cpp
