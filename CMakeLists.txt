@@ -12,7 +12,6 @@ project(Amethyst VERSION 1.0.0)
 
 add_library(${PROJECT_NAME} SHARED
     src/main.cpp
-    src/Button.cpp
     src/hacks/Player/Noclip.cpp
     src/hacks/misc/speedhack.cpp
     src/hacks/misc/iconhack.cpp
